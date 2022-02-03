@@ -95,7 +95,7 @@ const tick = () => {
   sphere.rotation.y = 0.5 * elapsedTime;
 
   // Update Orbital Controls
-  // controls.update()
+  controls.update();
 
   // Render
   renderer.render(scene, camera);
